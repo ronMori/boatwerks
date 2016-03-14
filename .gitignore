@@ -10,3 +10,24 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Maven
+target
+
+# VM
+.vagrant
+.user_vagrant.rb
+
+# OS
+.DS_Store
+._*
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea
+.idea/
