@@ -24,7 +24,6 @@ public class FirstController {
     @Autowired
     private MyBean myBean;
 
-
     @RequestMapping("/")
     public String index() {
         LOG.info(myBean.toString());

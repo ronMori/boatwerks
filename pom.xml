@@ -10,7 +10,7 @@
 
     <groupId>com.mori.boatwerks</groupId>
     <artifactId>boat-service</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>boat-service</name>
@@ -27,6 +27,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jetty</artifactId>
         </dependency>
 
         <dependency>
